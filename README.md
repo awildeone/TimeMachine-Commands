@@ -20,16 +20,10 @@ Current List (in Progress):
  2. Create a crontab to run the command
 
     `crontab -e`
-3. In the crontab editor (Default VIM), add the following template. Comment out each line using #
+3. In the crontab editor (Default VIM), add the following template in the repo
 
-> ┌───────────── minute (0 - 59)
-> │ ┌───────────── hour (0 - 23)
-> │ │ ┌───────────── day of month (1 - 31)
-> │ │ │ ┌───────────── month (1 - 12)
-> │ │ │ │ ┌───────────── day of week (0 - 6) (Sunday to Saturday;
-> │ │ │ │ │ 7 is also Sunday on some systems)
-> │ │ │ │ │
-> │ │ │ │ │
+`crontab example.txt`
+
 
 4. As a new line, add your crontab command using the template as a guide. To run a shell script, you will need to add /bin/sh in the line. The following command will run at minute 0 of every hour, every day.
 

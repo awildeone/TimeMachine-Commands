@@ -31,3 +31,15 @@ Current List (in Progress):
 
 5. Exit out of Vim while saving on quit (`:wq`)
 6. Check the status of the backup at the top of the hour.
+
+---
+
+## Time Machine Log
+
+This was a log file that [Jim Randell](https://superuser.com/users/646226/jim-randell) posted on a Stackexchange post. I wanted to put it here for reference in the future.
+
+1. Create a file called tm-log.sh
+2. Paste the contents from the tm-log.sh file in the repo
+3. Run it
+
+It will continue to monitor for TM status after reporting the last 12 hours of log info.

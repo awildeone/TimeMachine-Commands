@@ -14,8 +14,9 @@ Current List (in Progress):
     `vim tm_scheduler.sh`
 
     Add script:
-    `#!/bin/sh
-    /usr/bin/tmutil startbackup`
+    ```#!/bin/sh
+    /usr/bin/tmutil startbackup
+    ```
 
  2. Create a crontab to run the command
 

@@ -14,7 +14,8 @@ Current List (in Progress):
     `vim tm_scheduler.sh`
 
     Add script:
-    ```#!/bin/sh
+    ```
+    #!/bin/sh
     /usr/bin/tmutil startbackup
     ```
 
